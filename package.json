@@ -1,0 +1,23 @@
+{
+  "name": "devabees",
+  "version": "1.0.0",
+  "description": "The website of devabees",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "firebase-tools": "^7.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinpickering64/devabees.git"
+  },
+  "author": "Martin Pickering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinpickering64/devabees/issues"
+  },
+  "homepage": "https://github.com/martinpickering64/devabees#readme"
+}

@@ -2,3 +2,4 @@ baseURL = "https://www.devabees.com/"
 languageCode = "en-gb"
 title = "The website of DevaBees"
 theme = "blank"
+disableKinds = ["sitemap", "RSS", "taxonomy", "taxonomyTerm"]

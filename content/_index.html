@@ -2,25 +2,34 @@
 title: "devabees - Welcome"
 description: "The devabees forage in the numerous wild flower meadows and orchards that are found close to Chester and produce a glorious, light, bright floral honey that has been very popular with all that have tried it."
 date: 2019-11-11T22:17:03Z
-draft: true
+draft: false
 ---
-<nav class="mainmenu">
-    <div class="container">
-        <div class="dropdown">
-            <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <li><a href="#head" class="active">Home</a></li>
-                <li><a href="#about">About the devabees</a></li>
-                <li><a href="#pictures">Gallery</a></li>
-                <li><a href="#contact">Get in touch</a></li>
-            </ul>
-        </div>
-    </div>
+
+<nav class="navbar fixed-top navbar-light" id='menu'>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#head">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pictures">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 <section class="section" id="head">
     <div class="container">
         <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 text-center">
+            <div class="col-xs-10 offset-xs-1 text-center">
                 <h1 class="title">devabees</h1>
                 <h2 class="subtitle">A small apiary in Cheshire</h2>
                 <h3 class="tagline">
@@ -35,7 +44,7 @@ draft: true
     <div class="container">
         <h1 class="h2 text-center title">About the devabees</h1>
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+            <div class="col-sm-4 offset-sm-2 col-xs-10 offset-xs-1">
                 <h2 class="h5"><strong>Where in the world?</strong></h2>
                 <p>
                     devabees is a small apiary close to picturesque Chester in the United Kingdom.
@@ -58,7 +67,7 @@ draft: true
                 <h2 class="h5"><strong>Prize winning devabees honey</strong></h2>
                 <p>Our devabees honey has won various prizes including The Blackman Cup at the Cheshire Honey Show</p>
             </div>
-            <div class="col-sm-4 col-xs-10 col-xs-offset-1">
+            <div class="col-sm-4 col-xs-10 offset-xs-1">
                 <h2 class="h5"><strong>Cheshire Beekeeping Association</strong></h2>
                 <p>devabees are members of the <a href="https://www.cheshire-bka.co.uk/">Cheshire Beekeeper's Association (CBKA)</a> and proud to be so.</p>
                 <p>The members of the CBKA have made us extremely welcome, provided tons of help and useful knowledge and have turned out to be true friends.</p>
@@ -83,35 +92,36 @@ draft: true
         <p class="lead text-center">
             A few bee-related pictures that we like!
         </p>
+
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="/images/bees-on-honeycomb.jpg" alt="bees on honeycomb">
-                    <div class="caption">
-                        <h3>Bees on Honeycomb</h3>
-                        <p>Worker bees filling their comb with stores of nectar and pollen.</p>
-                        <p>Nectar is the dietary carbohydrate for the bees and pollen is their protein source.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="/images/bees-on-new-comb.jpg" alt="bees on new comb">
-                    <div class="caption">
+            <div class="col-sm-4 offset-sm-2 col-xs-10 offset-xs-1">
+               <figure class="figure thumbnail">
+                  <img src="/images/bees-on-honeycomb.jpg" alt="bees on honeycomb" class="figure-img img-fluid rounded">
+                  <figcaption class="figure-caption">
+                     <h3>Bees on Honeycomb</h3>
+                     <p>Worker bees filling their comb with stores of nectar and pollen.</p>
+                     <p>Nectar is the dietary carbohydrate for the bees and pollen is their protein source.</p>
+                  </figcaption>
+               </figure>
+           </div>
+            <div class="col-sm-4 offset-sm-0 col-xs-10 offset-xs-1">
+                <figure class="figure thumbnail">
+                    <img class="figure-img img-fluid rounded" src="/images/bees-on-new-comb.jpg" alt="bees on new comb">
+                    <figcaption class="figure-caption">
                         <h3>Brand new beeswax</h3>
                         <p>
                             When the wax for the combs is first made by the bees, it is a beautiful cream white colour. As the wax ages and the bees
                             add propolis to strengthen the comb, it will go from cream to yellow to brown and almost black.
                         </p>
-                    </div>
-                </div>
+                    </figcaption>
+                </figure>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="/images/capping-honey.jpg" alt="bees capping honey">
-                    <div class="caption">
+            <div class="col-sm-4 offset-sm-2 col-xs-10 offset-xs-1">
+                <figure class="figure thumbnail">
+                    <img class="figure-img img-fluid rounded" src="/images/capping-honey.jpg" alt="bees capping honey">
+                    <figcaption class="figurecaption">
                         <h3>Making Honey</h3>
                         <p>
                             The worker bees evaporate water from the nectar they collect until
@@ -120,13 +130,13 @@ draft: true
                             condition until it is needed.
                         </p>
                         <p>Can you spot the male bee on the comb, known as a Drone?</p>
-                    </div>
-                </div>
+                    </figcaption>
+                </figure>
             </div>
-            <div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="/images/loads-of-bees.jpg" alt="loads of bees">
-                    <div class="caption">
+            <div class="col-sm-4 offset-sm-0 col-xs-10 offset-xs-1">
+                <figure class="figure thumbnail">
+                    <img class="figure-img img-fluid rounded" src="/images/loads-of-bees.jpg" alt="loads of bees">
+                    <figcaption class="figure-caption">
                         <h3>Loads of bees</h3>
                         <p>
                             At the height of summer the Honey Bee colony's population has reached its peak size. This can make it challenging to
@@ -135,15 +145,15 @@ draft: true
                         <p>
                         However, it is what every Beekeeper wants to see; more bees equals a healthy
                         colony and the prospect of a good harvest.</p>
-                    </div>
-                </div>
+                    </figcaption>
+                </figure>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="/images/spot-the-queen.jpg" alt="can you spot the Queen?">
-                    <div class="caption">
+            <div class="col-sm-4 offset-sm-2 col-xs-10 offset-xs-1">
+                <figure class="figure thumbnail">
+                    <img class="figure-img img-fluid rounded" src="/images/spot-the-queen.jpg" alt="can you spot the Queen?">
+                    <figcaption class="figure-caption">
                         <h3>Can you spot the Queen?</h3>
                         <p>
                             In a Honey Bee colony there is one fertile female, known as the Queen. She is entirely dependent upon
@@ -151,19 +161,19 @@ draft: true
                             Worker Bee. For many Beekeeping tasks it is important to be able to find the Queen, which is often far
                             easier said than done!
                         </p>
-                    </div>
-                </div>
+                    </figcaption>
+                </figure>
             </div>
-            <div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="/images/liquid-sunshine.jpg" alt="Honey: Liquid Sunshine">
-                    <div class="caption">
+            <div class="col-sm-4 offset-sm-0 col-xs-10 offset-xs-1">
+                <figure class="figure thumbnail">
+                    <img class="figure-img img-fluid rounded" src="/images/liquid-sunshine.jpg" alt="Honey: Liquid Sunshine">
+                    <figcaption class="figure-caption">
                         <h3>Honey: Liquid Sunshine</h3>
                         <p>
                             This is what we all like about Honey Bees, the fruit of their labours - glorious Honey.
                         </p>
-                    </div>
-                </div>
+                    </figcaption>
+                </figure>
             </div>
         </div>
     </div>
@@ -172,7 +182,7 @@ draft: true
     <div class="container">
         <h2 class="text-center title">Get in touch</h2>
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 text-center">
+            <div class="col-sm-8 offset-sm-2 col-xs-10 offset-xs-1 text-center">
                 <p class="lead">Do you have a question about our devabees or beekeeping?</p>
                 <p>Feel free to email us, or drop us a line via Twitter!</p>
                 <ul class="list-inline list-social">
